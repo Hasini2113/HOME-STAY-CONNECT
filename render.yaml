@@ -1,13 +1,1 @@
-services:
-  - type: web
-    name: homestayconnect-backend
-    env: node
-    plan: free
-    branch: main
-    buildCommand: npm install
-    startCommand: node server.js
-    envVars:
-      - key: MONGO_URI
-        value: $MONGO_URI
-      - key: JWT_SECRET
-        value: $JWT_SECRET
+
